@@ -499,3 +499,108 @@ max-width: 100%;
     height: auto;
 }
 }
+/*  */
+/* Next is mobile responsiveness */
+
+@media (max-width:440px){
+    /* Phone Responsiveness */
+      
+    /* Hero-section for the mobile responsiveness */
+    .Hero-left{
+        max-width: none;
+        width: auto;
+        margin-bottom: 0px;
+        padding-top: 50px;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 20px;
+    }
+    .Hero-heading{
+        margin-left: 7vh;
+        line-height: 60px;
+        font-size: 50px;
+        size: 12px;
+        font-weight: 500;
+        max-width: 500px;
+        }
+    .Hero-right{
+       margin-top: 20px;
+        padding-bottom: 20px;
+       }
+    .Hero-btn{
+        display: block;
+        max-width: 350px;
+        padding: 12px 53px;
+        margin-left: 10vh;
+        margin-bottom: 7px;
+        }
+     .Hero-btn.Ghost-btn{
+        padding: 12px 53px;
+        display: block;
+        max-width: 250px;
+        margin-left: 10vh;
+           
+        }
+        .Hero-section{
+            padding-top: 0px;
+            padding-bottom: 20px;
+        }
+    .Hero-para{
+        margin-left: 7vh;
+        font-size: 15px;
+        }
+    /* second section for the mobile responsive  */
+    .second-heading{
+        font-size: 30px ;
+        }
+    .second-para{
+            max-width: 700px;
+    
+        }
+    .second-image{
+            max-width: 170%;
+        }
+    .second.section{
+            overflow: hidden;
+        }
+    /* This is the third section styles we used in the mobile view */
+    .third-heading{
+            font-size: 30px;
+            line-height: 40px;
+            max-width: 300px;
+        }
+    .third.section{
+           padding: 30px;
+        }
+    .third-right{
+            margin-left: 20px;
+            max-width: 382px;
+            min-width: auto;
+            width: auto;
+            height: auto;
+        }
+    .third.Hero-btn{
+            padding: 12px 53px;
+            margin-left: 5vh;
+            max-width: 250px;
+            width: auto;
+            max-height: 60px;
+            height: auto;
+        }
+    .third.Hero-btn.Ghost-btn{
+            padding: 12px 53px;
+            max-width: 250px;
+            max-height: 60px;
+            height: auto;
+    
+        }
+        .third-para{
+            font-size: 17px;
+        }
+    .third-line{
+            margin-left: 5.5vh;
+        }
+        
+    }
+    
+    
