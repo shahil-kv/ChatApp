@@ -3,3 +3,79 @@
     padding: 0;
 
 }
+
+.navbar {
+    background-color: #1E71FF;
+    color: white;
+}
+.container{
+    max-width: 1160px;
+    width: auto;
+    height: auto;
+   margin-left: auto;
+   margin-right: auto;
+}
+.nav-flexbox{
+    display: flex;
+    position: static;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand-title {
+    margin-top: 60px;
+    margin-left: 50px;
+    
+}
+
+.navbar-links {
+    height: 100%;
+   
+}
+
+.navbar-links ul {
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar-links li {
+    list-style: none;
+    padding: 42px 15px 20px 30px;
+}
+
+.navbar-links li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+}
+
+.navbar-links li:hover {
+    border-bottom: 2px rgb(255, 255, 255) solid;
+    transition: ease;
+}
+
+.toggle-button {
+    position: absolute;
+    min-width: 30px;
+   max-width: 35px;
+   min-height: 21px;
+  margin-right: 70px;
+  margin-top: 50px;
+   height: auto;
+   width: auto;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    
+   
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
